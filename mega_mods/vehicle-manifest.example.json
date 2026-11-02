@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "example.s15.addon",
+  "displayName": "Example S15 add-on (placeholder)",
+  "author": "Replace with actual mod author",
+  "sourceUrl": "https://example.org/replace-with-original-author-page",
+  "installType": "addon",
+  "compatibility": "metadata-only",
+  "requires": [
+    "NFSU2 PC v1.2",
+    "Unlimiter (PC only, if required by pack)"
+  ],
+  "files": [
+    {
+      "path": "CARS/EXAMPLE/GEOMETRY.BIN",
+      "role": "geometry"
+    },
+    {
+      "path": "CARS/EXAMPLE/TEXTURES.BIN",
+      "role": "textures"
+    }
+  ],
+  "parts": [
+    {
+      "category": "body",
+      "available": "unknown"
+    },
+    {
+      "category": "wheels",
+      "available": "unknown"
+    },
+    {
+      "category": "spoilers",
+      "available": "unknown"
+    }
+  ],
+  "notes": "Example only: no car or assets included."
+}
