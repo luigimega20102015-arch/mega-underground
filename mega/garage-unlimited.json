@@ -1,0 +1,20 @@
+{
+  "$schema": "./garage-unlimited.schema.json",
+  "version": 1,
+  "enabled": false,
+  "mode": "single-player-customize",
+  "unlocks": {
+    "vehicles": true,
+    "visualParts": true,
+    "performanceParts": true,
+    "uniqueParts": true,
+    "widebodyKits": true,
+    "ignoreCareerProgress": true,
+    "ignoreCurrency": true
+  },
+  "saves": {
+    "separateFromCareer": true,
+    "allowNamedBuilds": true
+  },
+  "notes": "Declarative target settings only. NOT yet wired to the game's runtime. Enabling this JSON has no gameplay effect."
+}
