@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MEGA Garage Unlimited target configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "enabled", "mode", "unlocks", "saves"],
+  "properties": {
+    "version": { "const": 1 },
+    "enabled": { "type": "boolean" },
+    "mode": { "const": "single-player-customize" },
+    "unlocks": {
+      "type": "object",
+      "additionalProperties": { "type": "boolean" },
+      "required": ["vehicles", "visualParts", "performanceParts", "uniqueParts", "widebodyKits", "ignoreCareerProgress", "ignoreCurrency"]
+    },
+    "saves": {
+      "type": "object",
+      "additionalProperties": { "type": "boolean" },
+      "required": ["separateFromCareer", "allowNamedBuilds"]
+    },
+    "notes": { "type": "string" }
+  }
+}
